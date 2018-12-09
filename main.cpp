@@ -1,17 +1,18 @@
 #include <iostream>
-
 using namespace std;
 
-int main(){
+int main ()
+{
 	
-	cout << "FOR LOOP PERTAMA\n";
-	for (int x=3; x<=27; x+=3){
-		cout << x << endl;
-	}
+	int a = 1;
 	
-	cout << "\nFOR LOOP KEDUA\n";
-	int total = 0;
-	for(int x= 3; x<= 27; x+=3,total += x){
-		cout << x << " TAMBAH " << total << endl;
+	while (a < 15 ){
+		cout << "saya sedang belajar C++\n";
+		cout << a << endl;
+		a += 3;
 	}
+	cout << "\n====> SEMANGAT <====";
+
+	cin.get();
+	return 0;
 }
